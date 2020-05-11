@@ -9,6 +9,10 @@
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
 	<packaging>pom</packaging>
+	<modules>
+		<module>labx-08-sc-gateway-demo01</module>
+		<module>labx-08-sc-gateway-demo02-registry</module>
+	</modules>
 
 	<artifactId>labx-08</artifactId>
 

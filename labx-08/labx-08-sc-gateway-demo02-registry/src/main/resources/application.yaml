@@ -1,0 +1,13 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: gateway-application
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+    nacos:
+      discovery:
+        server-addr: 10.24.20.118:8848
